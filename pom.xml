@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.revoltcode</groupId>
 	<artifactId>zubank_config_server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>zubank_config_server</name>
 	<description>A config server for my ZuBank application</description>
 	<properties>
@@ -24,7 +24,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 
 		<dependency>
